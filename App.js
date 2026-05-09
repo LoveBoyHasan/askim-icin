@@ -212,13 +212,13 @@ export default function App() {
                 style={[styles.toggleBtn, mode === 'kuruşsuz' && styles.toggleBtnActive]}
                 onPress={() => setMode('kuruşsuz')}
               >
-                <Text style={[styles.toggleText, mode === 'kuruşsuz' && styles.toggleTextActive]}>Kuruşsuz</Text>
+                <Text style={[styles.toggleText, mode === 'kuruşsuz' && styles.toggleTextActive]}>Kuruş</Text>
               </TouchableOpacity>
               <TouchableOpacity 
                 style={[styles.toggleBtn, mode === '10lar' && styles.toggleBtnActive]}
                 onPress={() => setMode('10lar')}
               >
-                <Text style={[styles.toggleText, mode === '10lar' && styles.toggleTextActive]}>10'un Katları</Text>
+                <Text style={[styles.toggleText, mode === '10lar' && styles.toggleTextActive]}>Onluk</Text>
               </TouchableOpacity>
             </View>
           </View>
